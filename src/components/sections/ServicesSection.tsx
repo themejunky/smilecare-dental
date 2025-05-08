@@ -62,23 +62,23 @@ const ServicesSection = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-red-500 font-bold mr-2">✓</span>
-                <span>Experienced team of dental professionals</span>
+                <span className="text-[#222222]">Experienced team of dental professionals</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-500 font-bold mr-2">✓</span>
-                <span>State-of-the-art equipment and facilities</span>
+                <span className="text-[#222222]">State-of-the-art equipment and facilities</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-500 font-bold mr-2">✓</span>
-                <span>Comfortable and relaxing environment</span>
+                <span className="text-[#222222]">Comfortable and relaxing environment</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-500 font-bold mr-2">✓</span>
-                <span>Personalized treatment plans</span>
+                <span className="text-[#222222]">Personalized treatment plans</span>
               </li>
               <li className="flex items-start">
                 <span className="text-red-500 font-bold mr-2">✓</span>
-                <span>Affordable pricing and flexible payment options</span>
+                <span className="text-[#222222]">Affordable pricing and flexible payment options</span>
               </li>
             </ul>
           </div>
