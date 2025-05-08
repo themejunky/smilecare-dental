@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import { redirect } from 'next/navigation';
 
 // Set CORS headers for the API route
 const corsHeaders = {
