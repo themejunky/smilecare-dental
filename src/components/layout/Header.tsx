@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="w-full">
       {/* Top Bar */}
-      <div className="bg-blue-900 text-white py-2">
+      <div className="bg-red-700 text-white py-2">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm">
           <div className="flex items-center space-x-4 mb-2 md:mb-0">
             <div className="flex items-center">
@@ -21,13 +21,13 @@ const Header = () => {
             </div>
           </div>
           <div className="flex space-x-4">
-            <Link href="https://facebook.com" className="hover:text-blue-300 transition-colors">
+            <Link href="https://facebook.com" className="hover:text-red-200 transition-colors">
               <FaFacebook />
             </Link>
-            <Link href="https://instagram.com" className="hover:text-blue-300 transition-colors">
+            <Link href="https://instagram.com" className="hover:text-red-200 transition-colors">
               <FaInstagram />
             </Link>
-            <Link href="https://twitter.com" className="hover:text-blue-300 transition-colors">
+            <Link href="https://twitter.com" className="hover:text-red-200 transition-colors">
               <FaTwitter />
             </Link>
           </div>
@@ -38,27 +38,27 @@ const Header = () => {
       <nav className="bg-white shadow-md py-4">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}
-          <div className="text-2xl font-bold text-blue-800 mb-4 md:mb-0">
+          <div className="text-2xl font-bold text-red-700 mb-4 md:mb-0">
             <Link href="/">
-              SmileCare<span className="text-blue-500">Dental</span>
+              SmileCare<span className="text-red-500">Dental</span>
             </Link>
           </div>
           
           {/* Navigation Links */}
           <div className="flex flex-wrap justify-center space-x-1 md:space-x-6">
-            <Link href="#services" className="px-3 py-2 text-blue-800 hover:text-blue-600 font-medium">
+            <Link href="#services" className="px-3 py-2 text-red-700 hover:text-red-500 font-medium">
               Services
             </Link>
-            <Link href="#pricing" className="px-3 py-2 text-blue-800 hover:text-blue-600 font-medium">
+            <Link href="#pricing" className="px-3 py-2 text-red-700 hover:text-red-500 font-medium">
               Pricing
             </Link>
-            <Link href="#testimonials" className="px-3 py-2 text-blue-800 hover:text-blue-600 font-medium">
+            <Link href="#testimonials" className="px-3 py-2 text-red-700 hover:text-red-500 font-medium">
               Testimonials
             </Link>
-            <Link href="#location" className="px-3 py-2 text-blue-800 hover:text-blue-600 font-medium">
+            <Link href="#location" className="px-3 py-2 text-red-700 hover:text-red-500 font-medium">
               Location
             </Link>
-            <Link href="#contact" className="px-3 py-2 text-blue-800 hover:text-blue-600 font-medium">
+            <Link href="#contact" className="px-3 py-2 text-red-700 hover:text-red-500 font-medium">
               Contact
             </Link>
           </div>

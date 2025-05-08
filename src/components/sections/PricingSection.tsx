@@ -43,10 +43,10 @@ const pricingData = [
 
 const PricingSection = () => {
   return (
-    <section id="pricing" className="py-16 bg-blue-50">
+    <section id="pricing" className="py-16 bg-red-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Transparent Pricing</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-red-700 mb-4">Transparent Pricing</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             We believe in transparent pricing with no hidden fees. Below are our standard rates for common dental procedures.
             Contact us for a personalized treatment plan and exact pricing.
@@ -56,7 +56,7 @@ const PricingSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {pricingData.map((category, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="bg-blue-800 text-white py-4 px-6">
+              <div className="bg-red-700 text-white py-4 px-6">
                 <h3 className="text-xl font-semibold">{category.category}</h3>
               </div>
               <div className="p-6">
@@ -65,7 +65,7 @@ const PricingSection = () => {
                     {category.services.map((service, serviceIndex) => (
                       <tr key={serviceIndex} className={serviceIndex !== category.services.length - 1 ? 'border-b border-gray-200' : ''}>
                         <td className="py-4 text-gray-700">{service.name}</td>
-                        <td className="py-4 text-right font-semibold text-blue-900">{service.price}</td>
+                        <td className="py-4 text-right font-semibold text-red-700">{service.price}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -76,21 +76,21 @@ const PricingSection = () => {
         </div>
 
         <div className="mt-12 bg-white p-6 rounded-lg shadow-md">
-          <h3 className="text-xl font-semibold text-blue-800 mb-4">Insurance & Payment Options</h3>
+          <h3 className="text-xl font-semibold text-red-700 mb-4">Insurance & Payment Options</h3>
           <p className="text-gray-600 mb-4">
             We accept most dental insurance plans and offer flexible payment options to make dental care accessible for everyone.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="border border-gray-200 rounded p-4">
-              <h4 className="font-medium text-blue-700 mb-2">Insurance</h4>
+              <h4 className="font-medium text-red-600 mb-2">Insurance</h4>
               <p className="text-sm text-gray-600">We work with most major insurance providers to ensure you get the maximum benefits.</p>
             </div>
             <div className="border border-gray-200 rounded p-4">
-              <h4 className="font-medium text-blue-700 mb-2">Payment Plans</h4>
+              <h4 className="font-medium text-red-600 mb-2">Payment Plans</h4>
               <p className="text-sm text-gray-600">Flexible payment plans available for more extensive treatments and procedures.</p>
             </div>
             <div className="border border-gray-200 rounded p-4">
-              <h4 className="font-medium text-blue-700 mb-2">Discounts</h4>
+              <h4 className="font-medium text-red-600 mb-2">Discounts</h4>
               <p className="text-sm text-gray-600">Special discounts for families and senior citizens. Ask our staff for details.</p>
             </div>
           </div>

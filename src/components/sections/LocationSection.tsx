@@ -14,10 +14,10 @@ const LocationSection = () => {
   const openStreetMapUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${longitude - 0.01}%2C${latitude - 0.01}%2C${longitude + 0.01}%2C${latitude + 0.01}&amp;layer=mapnik&amp;marker=${latitude}%2C${longitude}`;
 
   return (
-    <section id="location" className="py-16 bg-blue-50">
+    <section id="location" className="py-16 bg-red-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Find Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-red-700 mb-4">Find Us</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             We&apos;re conveniently located in central București. Visit us today for your dental care needs.
           </p>
@@ -42,11 +42,11 @@ const LocationSection = () => {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold text-blue-800 mb-6">Contact Information</h3>
+            <h3 className="text-xl font-semibold text-red-700 mb-6">Contact Information</h3>
             
             <div className="space-y-4">
               <div className="flex items-start">
-                <FaMapMarkerAlt className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                <FaMapMarkerAlt className="text-red-500 mt-1 mr-3 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium">Address</h4>
                   <p className="text-gray-600">Strada Maria Rosetti 26A, București 020487</p>
@@ -54,7 +54,7 @@ const LocationSection = () => {
               </div>
               
               <div className="flex items-start">
-                <FaPhone className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                <FaPhone className="text-red-500 mt-1 mr-3 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <p className="text-gray-600">0720.123.123</p>
@@ -62,7 +62,7 @@ const LocationSection = () => {
               </div>
               
               <div className="flex items-start">
-                <FaEnvelope className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                <FaEnvelope className="text-red-500 mt-1 mr-3 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium">Email</h4>
                   <p className="text-gray-600">info@smilecare.com</p>
@@ -70,7 +70,7 @@ const LocationSection = () => {
               </div>
               
               <div className="flex items-start">
-                <FaClock className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                <FaClock className="text-red-500 mt-1 mr-3 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium">Working Hours</h4>
                   <p className="text-gray-600">Monday - Friday: 9:00 - 18:00</p>

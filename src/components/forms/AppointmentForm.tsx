@@ -77,7 +77,7 @@ const AppointmentForm = () => {
         <input
           id="name"
           type="text"
-          className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+          className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 ${
             errors.name ? 'border-red-500' : 'border-gray-300'
           }`}
           placeholder="Your full name"
@@ -95,7 +95,7 @@ const AppointmentForm = () => {
         <input
           id="phone"
           type="tel"
-          className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+          className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 ${
             errors.phone ? 'border-red-500' : 'border-gray-300'
           }`}
           placeholder="Your phone number"
@@ -119,7 +119,7 @@ const AppointmentForm = () => {
         <input
           id="email"
           type="email"
-          className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+          className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 ${
             errors.email ? 'border-red-500' : 'border-gray-300'
           }`}
           placeholder="Your email address"
@@ -143,7 +143,7 @@ const AppointmentForm = () => {
         <textarea
           id="message"
           rows={4}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
           placeholder="Tell us about your dental needs"
           {...register('message')}
         ></textarea>
@@ -152,7 +152,7 @@ const AppointmentForm = () => {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-blue-600 text-white py-3 rounded-md font-medium hover:bg-blue-700 transition-colors disabled:bg-blue-400"
+        className="w-full bg-red-600 text-white py-3 rounded-md font-medium hover:bg-red-700 transition-colors disabled:bg-red-400"
       >
         {isSubmitting ? 'Sending...' : 'Send Request'}
       </button>

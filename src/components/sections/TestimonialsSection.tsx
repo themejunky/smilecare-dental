@@ -47,7 +47,7 @@ const TestimonialsSection = () => {
     <section id="testimonials" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">What Our Patients Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-red-700 mb-4">What Our Patients Say</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Don&apos;t just take our word for it. Here&apos;s what our patients have to say about their experience at SmileCare Dental.
           </p>
@@ -57,7 +57,7 @@ const TestimonialsSection = () => {
           {testimonials.map((testimonial) => (
             <div 
               key={testimonial.id} 
-              className="bg-blue-50 rounded-lg shadow-md p-6 flex flex-col h-full"
+              className="bg-red-50 rounded-lg shadow-md p-6 flex flex-col h-full"
             >
               <div className="flex items-center mb-4">
                 <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
@@ -71,7 +71,7 @@ const TestimonialsSection = () => {
                   />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-blue-800">{testimonial.name}</h3>
+                  <h3 className="font-semibold text-red-700">{testimonial.name}</h3>
                   <div className="flex text-yellow-400">
                     {[...Array(5)].map((_, i) => (
                       <FaStar 
@@ -90,7 +90,7 @@ const TestimonialsSection = () => {
         <div className="mt-12 text-center">
           <a 
             href="#contact" 
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors"
+            className="inline-block bg-red-600 text-white px-6 py-3 rounded-full font-medium hover:bg-red-700 transition-colors"
           >
             Book Your Appointment Today
           </a>
