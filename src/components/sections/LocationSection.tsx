@@ -1,12 +1,10 @@
 "use client";
 
 import React from 'react';
-import Image from 'next/image';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 
 const LocationSection = () => {
-  // Static map URL using OpenStreetMap
-  const mapImageUrl = "https://maps.googleapis.com/maps/api/staticmap?center=Strada+Maria+Rosetti+26A,+București+020487&zoom=15&size=600x400&markers=color:blue%7CStrada+Maria+Rosetti+26A,+București+020487&key=";
+  // Static map coordinates for OpenStreetMap
   
   // Coordinates for the location (approximate for Strada Maria Rosetti 26A, București)
   const latitude = 44.4396;
@@ -21,7 +19,7 @@ const LocationSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Find Us</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We're conveniently located in central București. Visit us today for your dental care needs.
+            We&apos;re conveniently located in central București. Visit us today for your dental care needs.
           </p>
         </div>
 
@@ -85,7 +83,7 @@ const LocationSection = () => {
             <div className="mt-6">
               <h4 className="font-medium mb-2">Getting Here</h4>
               <p className="text-gray-600 text-sm">
-                We're easily accessible by public transportation. The nearest bus stops are within a 2-minute walk, and there's paid parking available nearby.
+                We&apos;re easily accessible by public transportation. The nearest bus stops are within a 2-minute walk, and there&apos;s paid parking available nearby.
               </p>
             </div>
           </div>

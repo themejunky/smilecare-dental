@@ -49,7 +49,7 @@ const AppointmentForm = () => {
         setSubmitSuccess(false);
       }, 5000);
     } catch (error) {
-      setSubmitError('We\'re experiencing technical issues. Please call us at 0720.123.123 or email us at info@smilecare.com with your appointment request.');
+      setSubmitError('We&apos;re experiencing technical issues. Please call us at 0720.123.123 or email us at info@smilecare.com with your appointment request.');
       console.error('Form submission error:', error);
     } finally {
       setIsSubmitting(false);
