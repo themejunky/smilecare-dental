@@ -60,7 +60,7 @@ const AppointmentForm = () => {
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
       {submitSuccess && (
         <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
-          Thank you! Your appointment request has been received. We'll contact you shortly.
+          Thank you! Your appointment request has been received. We&apos;ll contact you shortly.
         </div>
       )}
       
